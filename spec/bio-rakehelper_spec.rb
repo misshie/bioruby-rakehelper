@@ -6,7 +6,7 @@ describe "BioRakehelper" do
     Bio::RakeHelper
   end
  
-  describe '.suffix' do
+  describe '#suffix' do
     context 'when called with ("test.obj", ".obj => ".src")' do
       it 'returns ("test.src")' do
         subject.suffix("test.obj",
@@ -24,13 +24,11 @@ describe "BioRakehelper" do
     end
   end
 
-  describe '.suffix_proc' do
+  describe '#suffix_proc' do
     context 'when called with (".obj => ".src")' do
       it 'returns a Proc' do
         subject.suffix_proc(".obj" => ".src").should be_a Proc
       end
     end
   end
-
-  describe '
 end
