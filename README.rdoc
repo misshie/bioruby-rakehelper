@@ -6,7 +6,6 @@ License:: the MIT/X11 license. See the LICENSE file.
 A BioRuby plugin simplifying rakefiles.
 
 == Contributing to bio-rakehelper
-<<<<<<< HEAD
 * BioRuby mailing list http://lists.open-bio.org/mailman/listinfo/bioruby
 * BioRuby wiki http://bioruby.open-bio.org/wiki/Main_Page
 * e-mail to the author
@@ -14,7 +13,6 @@ A BioRuby plugin simplifying rakefiles.
 *BioRuby mailing list http://lists.open-bio.org/mailman/listinfo/bioruby
 *BioRuby wiki http://bioruby.open-bio.org/wiki/Main_Page
 *e-mail to the author
->>>>>>> 29401763e55e2a68589e8232017b0851d252fb3d
 
 == Copyright
 Copyright (c) 2011 Hiroyuki Mishima. See LICENSE.txt for
