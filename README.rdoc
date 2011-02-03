@@ -1,19 +1,16 @@
 = bio-rakehelper
+Author:: Hiroyuki Mishima (missy at be.to / hmishima at nagasaki-u.ac.jp)
+Copyright:: Hiroyuki Mishima, 2011
+License:: the MIT/X11 license. See the LICENSE file.
 
-Description goes here.
+A BioRuby plugin simplifying rakefiles.
 
 == Contributing to bio-rakehelper
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+* BioRuby mailing list http://lists.open-bio.org/mailman/listinfo/bioruby
+* BioRuby wiki http://bioruby.open-bio.org/wiki/Main_Page
+* e-mail to the author
 
 == Copyright
-
 Copyright (c) 2011 Hiroyuki Mishima. See LICENSE.txt for
 further details.
 
