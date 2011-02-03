@@ -4,6 +4,8 @@
 # ( missy at be.to / hmishima at nagasaki-u.ac.jp )
 # see README.rdoc and LICENCE for detail
 
+#### TEST DESU here to be deleted
+
 require 'rubygems'
 require 'bio'
 
