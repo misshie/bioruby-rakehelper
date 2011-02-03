@@ -9,19 +9,21 @@ require 'bio'
 
 module Bio
   class RakeHelper
-    def suffix(objfile, dependency)
-      objext = ""
-      srcext = ""
-      dependency.each do |key, value|
-        objext = key
-        srcext = value
+    class << self
+      def suffix(objfile, dependency)
+        objext = ""
+        srcext = ""
+        dependency.each do |key, value|
+          objext = key
+          srcext = value
+        end
+        objfile.sub(/#{Regexp.escape(objext)}$/, srcext)
       end
-      objfile.sub(/#{Regexp.escape(objext)}$/, srcext)
-    end
-
-    def suffix_proc(dependency)
-      proc {|fn|
-        suffix(fn, dependency)}
+      
+      def suffix_proc(dependency)
+        proc {|fn|
+          suffix(fn, dependency)}
+      end
     end
   end
 end

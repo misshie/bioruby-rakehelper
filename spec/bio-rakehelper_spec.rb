@@ -3,9 +3,9 @@ require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 describe "BioRakehelper" do
 
   subject do
-    Bio::RakeHelper.new
+    Bio::RakeHelper
   end
-  
+ 
   describe '#suffix' do
     context 'when called with ("test.obj", ".obj => ".src")' do
       it 'returns ("test.src")' do
@@ -31,5 +31,4 @@ describe "BioRakehelper" do
       end
     end
   end
-
 end
